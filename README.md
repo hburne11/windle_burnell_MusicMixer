@@ -24,36 +24,36 @@ Clone the project, open the file in desired browser and enjoy.
 4.You can adjust the volume and layer sounds
 
 
-##Folder breakdown
+## Folder breakdown
 
-###index.html (not a folder)
+### index.html (not a folder)
 This is what is used to view and use the Minecraft Jukebox.
 
-###assets
+### assets
 Authoring 2 - Interactive Music Mixer.pdf
 This is a file that has the project instructions.
 
 Checkpoint 1 - Music Mixer.pdf
 Requirements for the first checkpoint of the Music Mixer project.
 
-###audio
+### audio
 The folder that will hold the audio
 
-###css
+### css
 main.css
 CSS file that styles the page.
 
 reset.css
 CSS file that resets the default css.
 
-###images
+### images
 The folder that will hold the images.
 
-###includes
+### includes
 README.md
 This document!
 
-###js
+### js
 main.js
 JavaScript file that makes the mixer work.
 
