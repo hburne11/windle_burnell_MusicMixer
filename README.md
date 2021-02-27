@@ -1,3 +1,6 @@
+![Capture](https://user-images.githubusercontent.com/71723408/109402465-1b601f80-7924-11eb-9f2c-33f13f847dcf.PNG)
+
+
 # Minecraft Jukebox Music Mixer
 
 Pick a disc, drop it into the jukebox and enjoy some music!
