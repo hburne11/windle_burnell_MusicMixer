@@ -1,0 +1,66 @@
+.hidden
+{
+	display: none;
+}
+
+
+
+.siteContainer
+{
+	background-image: url("../images/website_background.jpg");
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	font-family: 'Eras ITC', Arial, sans-serif;
+}
+
+body, h1, h2
+{
+	font-family: 'Eras ITC', Arial, sans-serif;
+
+}
+
+#mainHeader h1
+{
+	margin-top: 50px;
+	font-size: 88px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#mainHeader h2
+{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+#jukebox
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	justify-content: center;
+}
+
+.audioControls
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: black;
+
+
+}
+
+.discs
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 60px;
+	margin-right: auto;
+	margin-top: 35px;
+	opacity: 1;
+
+}
