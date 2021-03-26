@@ -74,7 +74,10 @@ body, h1, h2
 	margin-left: 450px;
 }
 
-
+#volumeControl
+{
+	cursor: pointer;
+}
 
 
 .discs
