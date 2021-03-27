@@ -72,6 +72,7 @@ body, h1, h2
 .audioControls
 {
 	margin-left: 450px;
+	margin-bottom: 20px;
 }
 
 #volumeControl
@@ -85,9 +86,16 @@ body, h1, h2
 	cursor: pointer;
 	display: flex;
 	flex-direction: row;
-	margin-left: 250px;
+	margin-left: 20px;
 	opacity: 1;
 
+}
+
+.discs img
+{
+	background-color: #008CBA;
+	width: 80%;
+	height: 80%;
 }
 
 
