@@ -9,7 +9,7 @@ console.log ("js is linked")
 
 function dragStart(event) {
 	console.log("dragged!")
-	//event.dataTransfer.setData("savedID", this.id);
+	event.dataTransfer.setData("savedID", this.id);
 }
 
 
@@ -21,6 +21,8 @@ function draggedOver(event) {
 function dropped(event) {
 	event.preventDefault();
 	console.log("droppppp")
+	let targetID = event.dataTransfer.getData("savedID");
+	console.log("dropped")
 }
 
 //event handling
