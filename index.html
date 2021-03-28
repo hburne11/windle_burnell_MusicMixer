@@ -2,14 +2,88 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Web Template</title>
+		<title>Minecraft Music Mixer</title>
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 	</head>
-	<body>
-		<!-- Content Goes Here -->
+<body>
 
-		<script src="js/main.js"></script>
-	</body>
+		<div class="siteContainer">
 
+		<header id="mainHeader">
+
+			<h1>Minecraft Music Mixer</h1>
+			<h2>Drag the disc into the jukebox to hear the sound effect!</h2>
+
+		</header>
+	<main>
+			<div class="jukebox">
+				<img src="images/jukebox.png" alt="minecraft jukebox" width="305" height="305">
+			</div>
+
+<section class="audioControls">
+	<a href="#" class="button">PLAY</a>
+	<a href="#" class="button">STOP</a>
+	<a href="#" class="button">REWIND</a>
+
+	<input id="volumeControl" type="range" min="0" max="100" step="1">
+</section>
+
+
+		<section class="discs">
+
+
+						<div class="disc1" draggable="true">
+								<img src="images/disc_creeper.png" alt="minecraft disc" width="200" height="150">
+
+						</div>
+
+						<div class="disc2">
+								<img src="images/disc_spider.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
+						<div class="disc3">
+								<img src="images/disc_zombie.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
+						<div class="disc4">
+								<img src="images/disc_skeleton.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
+
+						<div class="disc5">
+								<img src="images/disc_ghast.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
+
+						<div class="disc6">
+								<img src="images/disc_blaze.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
+
+
+
+</section>
+</main>
+</div>
+
+
+		<audio src="audio/creeper.ogg"></audio>
+		<audio src="audio/spider.oga"></audio>
+		<audio src="audio/zombie.mp3"></audio>
+		<audio src="audio/skeleton.mp3"></audio>
+		<audio src="audio/ghast.mp3"></audio>
+		<audio src="audio/blaze.mp3"></audio>
+
+		<script src="js/main.js">
+
+		</script>
+
+
+</body>
 </html>

@@ -2,3 +2,112 @@
 {
 	display: none;
 }
+
+
+
+.siteContainer
+{
+	max-width: 1400px;
+	height: auto;
+	background-image: url("../images/website_background.jpg");
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	font-family: 'Eras ITC', Arial, sans-serif;
+}
+
+body, h1, h2
+{
+	font-family: 'Eras ITC', Arial, sans-serif;
+
+}
+
+#mainHeader h1
+{
+	margin-top: 30px;
+	font-size: 88px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#mainHeader h2
+{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+.jukebox img
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.button
+{
+
+  background-color: #4CAF50;
+	border-style: solid;
+	border-width: thick;
+  border-color: #008CBA;
+  color: white;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	border-radius: 12px;
+	margin-left: 15px;
+}
+
+.button:hover{
+	opacity: 0.8;
+}
+
+.audioControls
+{
+	margin-left: 450px;
+	margin-bottom: 20px;
+}
+
+#volumeControl
+{
+	cursor: pointer;
+}
+
+
+.discs
+{
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+	opacity: 1;
+
+}
+
+.discs img
+{
+	background-color: #008CBA;
+	width: 80%;
+	height: 80%;
+}
+
+
+.discs h2
+{
+	background-color: #4CAF50;
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	justify-content: space-between;
+	margin-left: 5px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
