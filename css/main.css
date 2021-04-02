@@ -93,9 +93,13 @@ body, h1, h2
 
 .discs img
 {
-	background-color: #008CBA;
+	
 	width: 80%;
 	height: 80%;
+}
+
+.discs img:hover{
+	opacity: 0.8;
 }
 
 
