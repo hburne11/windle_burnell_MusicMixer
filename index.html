@@ -18,69 +18,81 @@
 		</header>
 	<main>
 			<section id="jukebox">
-				<img src="images/jukebox.png" alt="minecraft jukebox" width="355" height="355">
+				<img src="images/jukebox.png" alt="minecraft jukebox" width="305" height="305">
 
+</section>
 
+<<<<<<< HEAD
+<section class="audioControls">
+	<a href="#" class="button">PLAY</a>
+	<a href="#" class="button">STOP</a>
+	<a href="#" class="button">REWIND</a>
+=======
 			</section>
 
-			<section class="audioControls">
-				<button>PLAY</button>
-				<button>STOP</button>
-				<button>REWIND</button>
+>>>>>>> main
 
-				<input id="volumeControl" type="range" min="0" max="100" step="1">
-			</section>
+	<input id="volumeControl" type="range" min="0" max="100" step="1">
+</section>
 
+	<section class="discs">
 
 
-		<section class="discs">
-
-
-						<div id="disc1">
-								<img src="images/music_disc1.png" alt="minecraft disc" width="150" height="150">
-								<h2>Skeleton</h2>
+						<div class="disc1">
+								<img src="images/disc_creeper.png" alt="minecraft disc" width="200" height="150">
 
 						</div>
 
-						<div id="disc2">
-								<img src="images/music_disc2.png" alt="minecraft disc" width="150" height="150">
-								<h2>Zombie</h2>
+						<div class="disc2">
+								<img src="images/disc_spider.png" alt="minecraft disc" width="200" height="150">
 
-						</div>
+					</div>
 
-						<div id="disc3">
-								<img src="images/music_disc3.png" alt="minecraft disc" width="150" height="150">
-								<h2>Spider</h2>
+						<div class="disc3">
+								<img src="images/disc_zombie.png" alt="minecraft disc" width="200" height="150">
 
-						</div>
+					</div>
 
-						<div id="disc4">
-								<img src="images/music_disc4.png" alt="minecraft disc" width="150" height="150">
-								<h2>Creeper</h2>
+						<div class="disc4">
+								<img src="images/disc_skeleton.png" alt="minecraft disc" width="200" height="150">
 
-						</div>
+					</div>
 
-						<div id="disc5">
-								<img src="images/music_disc5.png" alt="minecraft disc" width="150" height="150">
-								<h2>Ghast</h2>
 
-						</div>
+						<div class="disc5">
+								<img src="images/disc_ghast.png" alt="minecraft disc" width="200" height="150">
 
-						<div id="disc6">
-								<img src="images/music_disc6.png" alt="minecraft disc" width="150" height="150">
-								<h2>Blaze</h2>
+					</div>
 
-						</div>
+
+						<div class="disc6">
+								<img src="images/disc_blaze.png" alt="minecraft disc" width="200" height="150">
+
+					</div>
+
 
 
 
 </section>
-</main>
 
+<section class="audioControls">
+	<button>PLAY</button>
+	<button>STOP</button>
+	<button>REWIND</button>
+
+	<input id="volumeControl" type="range" min="0" max="100" step="1">
+</section>
+
+</main>
 </div>
 
 
-		<!-- Content Goes Here -->
+		<audio src="audio/creeper.ogg"></audio>
+		<audio src="audio/spider.oga"></audio>
+		<audio src="audio/zombie.mp3"></audio>
+		<audio src="audio/skeleton.mp3"></audio>
+		<audio src="audio/ghast.mp3"></audio>
+		<audio src="audio/blaze.mp3"></audio>
 
 		<script src="js/main.js">
 
