@@ -115,3 +115,14 @@ body, h1, h2
 	text-transform: uppercase;
 	margin-bottom: 30px;
 }
+
+.discs
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 60px;
+	margin-right: auto;
+	margin-top: 35px;
+	opacity: 1;
+
+}
