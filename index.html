@@ -17,51 +17,56 @@
 
 		</header>
 	<main>
-			<div class="jukebox">
+			<section id="jukebox">
 				<img src="images/jukebox.png" alt="minecraft jukebox" width="305" height="305">
-			</div>
 
+</section>
+
+<<<<<<< HEAD
 <section class="audioControls">
 	<a href="#" class="button">PLAY</a>
-	<a href="#" class="button">STOP</a>
+	<a id="stop" class="button">STOP</a>
 	<a href="#" class="button">REWIND</a>
+=======
+			</section>
+
+>>>>>>> main
 
 	<input id="volumeControl" type="range" min="0" max="100" step="1">
 </section>
 
-
-		<section class="discs">
+	<section class="discs">
 
 
 						<div class="disc1">
-								<img id="drag0" src="images/disc_creeper.png" alt="minecraft disc" width="200" height="150">
+								<img id="track1" src="images/disc_creeper.png" alt="minecraft disc" width="200" height="150">
 
 						</div>
 
 						<div class="disc2">
-								<img id="drag1" src="images/disc_spider.png" alt="minecraft disc" width="200" height="150">
+								<img id="track2" src="images/disc_spider.png" alt="minecraft disc" width="200" height="150">
 
 					</div>
 
 						<div class="disc3">
-								<img id="drag2" data-imageref="2" src="images/disc_zombie.png" alt="minecraft disc" width="200" height="150">
+								<img id="track3" src="images/disc_zombie.png" alt="minecraft disc" width="200" height="150">
 
 					</div>
 
 						<div class="disc4">
-								<img id="drag3" data-imageref="3" src="images/disc_skeleton.png" alt="minecraft disc" width="200" height="150">
+								<img id="track4"src="images/disc_skeleton.png" alt="minecraft disc" width="200" height="150">
 
 					</div>
 
 
 						<div class="disc5">
-								<img id="drag4" data-imageref="4" src="images/disc_ghast.png" alt="minecraft disc" width="200" height="150">
+								<img id="track5" src="images/disc_ghast.png" alt="minecraft disc" width="200" height="150">
 
 					</div>
 
 
 						<div class="disc6">
-								<img id="drag5" data-imageref="5" src="images/disc_blaze.png" alt="minecraft disc" width="200" height="150">
+								<img id="track6" src="images/disc_blaze.png" alt="minecraft disc" width="200" height="150">
 
 					</div>
 
@@ -69,20 +74,28 @@
 
 
 </section>
+
+<section class="audioControls">
+	<button>PLAY</button>
+	<button>STOP</button>
+	<button>REWIND</button>
+
+	<input id="volumeControl" type="range" min="0" max="100" step="1">
+</section>
+
 </main>
 </div>
 
+	<audio id="audio" controls>
+		<audio src="audio/track1.mp3"></audio>
+		<audio src="audio/track2.mp3"></audio>
+		<audio src="audio/track3.mp3"></audio>
+		<audio src="audio/track4.mp3"></audio>
+		<audio src="audio/track5.mp3"></audio>
+		<audio src="audio/track6.mp3"></audio>
+	</audio>
 
-		<audio src="audio/creeper.ogg"></audio>
-		<audio src="audio/spider.oga"></audio>
-		<audio src="audio/zombie.mp3"></audio>
-		<audio src="audio/skeleton.mp3"></audio>
-		<audio src="audio/ghast.mp3"></audio>
-		<audio src="audio/blaze.mp3"></audio>
-
-		<script src="js/main.js">
-
-		</script>
+		<script src="js/main.js"></script>
 
 
 </body>
